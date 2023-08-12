@@ -1,2 +1,2 @@
 # Keeper App
-Dummy version of Keep Notes Website
+Dummy version of Keep Notes App.

@@ -55,6 +55,7 @@ function Input(props){
                     <Fab color="primary" aria-label="add" onClick={(event)=>{
                         props.addNote({title: inputNote.title, content: inputNote.content});
                         updateNote({title: "", content: ""});
+                        updateExpandState(false);
                         event.preventDefault();
                     }
                     }>
